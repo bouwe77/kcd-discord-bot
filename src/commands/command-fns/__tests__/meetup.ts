@@ -473,13 +473,10 @@ CC: ${hannah} and ${marty}
 })
 
 test.each([
-  [
-    'Zoom',
-    'https://egghead.zoom.us/j/97341329204?pwd=MTRPc1p4Uit4K2ZpVjNDSWFxNTRlUT09',
-  ],
+  ['Zoom', 'https://egghead.zoom.us/j/97341329204?pwd=MTRPc1p4UitxNTRlUT09'],
   ['Twitch', 'https://www.twitch.tv/videos/1163705517'],
   ['WebinarGeek', 'https://someone.webinargeek.com/test123-1'],
-  ['YouTube sharable', 'https://youtu.be/Q-S123aBcqq'],
+  ['YouTube shareable', 'https://youtu.be/Q-S123aBcqq'],
   ['YouTube normal', 'https://www.youtube.com/watch?v=Q-S123aBcqq'],
 ])(
   `if the meetup command includes a %s link, that is shared instead of creating a voice channel`,
